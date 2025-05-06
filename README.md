@@ -529,7 +529,7 @@ Esto te devolverá a tu shell global de Python.
 <br> <br>
 ## ✨ Imagenes
 
-| ![Pantalla del juego](https://github.com/felipesanchez-dev/Pronostico-del-Clima/blob/main/assets/Capturas/app1.jpg) | ![Captura 2](https://github.com/felipesanchez-dev/Pronostico-del-Clima/blob/main/assets/Capturas/app2.jpg) | ![Captura 3](https://github.com/felipesanchez-dev/Pronostico-del-Clima/blob/main/assets/Capturas/app3.jpg) |
+| ![Pantalla del juego](https://github.com/felipesanchez-dev/Laberinto-de-Moustros/blob/main/image/game.jpg) | ![Captura 2](https://github.com/felipesanchez-dev/Pronostico-del-Clima/blob/main/assets/Capturas/app2.jpg) | ![Captura 3](https://github.com/felipesanchez-dev/Pronostico-del-Clima/blob/main/assets/Capturas/app3.jpg) |
 |------------------------------------------|------------------------------------------|------------------------------------------|
 
 
