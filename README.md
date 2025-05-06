@@ -9,7 +9,7 @@ El proyecto utiliza **Programación Orientada a Objetos (POO)** y la famosa libr
 ```bash
 Laberinto de Moustros/
 │
-├── .gitignore           # 🚫 Archivos y carpetas ignorados por Git
+├── .gitignore         
 ├── README.md            # 📖 Documentación y guía del proyecto
 ├── requirements.txt     # 📦 Dependencias necesarias para ejecutar el juego
 ├── .vscode/
@@ -28,7 +28,7 @@ Laberinto de Moustros/
 │   │       ├── fireball.wav
 │   │       └── ...
 │   │
-│   ├── client/          # ⚠️ (Posible carpeta redundante)
+│   ├── client/         
 │   ├── graphics/        # 🎨 Gráficos y sprites
 │   │   ├── font/        # 🔤 Fuentes tipográficas
 │   │   ├── grass/       # 🌱 Sprites de césped
