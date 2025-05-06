@@ -15,7 +15,10 @@ Laberinto de Moustros/
 ├── .vscode/
 │   └── settings.json    # ⚙️ Configuración para Visual Studio Code
 │
-├── client/         
+├── client/
+│   │ 
+│   ├── audio
+│   │ 
 │   ├── graphics/        # 🎨 Gráficos y sprites
 │   │   ├── font/        # 🔤 Fuentes tipográficas
 │   │   ├── grass/       # 🌱 Sprites de césped
