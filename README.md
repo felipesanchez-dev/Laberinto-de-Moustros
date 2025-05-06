@@ -15,20 +15,7 @@ Laberinto de Moustros/
 ├── .vscode/
 │   └── settings.json    # ⚙️ Configuración para Visual Studio Code
 │
-├── client/
-│   ├── audio/           # 🔊 Sonidos y música del juego
-│   │   ├── death.wav
-│   │   ├── Fire.wav
-│   │   ├── heal.wav
-│   │   ├── hit.wav
-│   │   ├── main.ogg
-│   │   ├── sword.wav
-│   │   └── attack/      # 💥 Efectos de ataque de enemigos
-│   │       ├── claw.wav
-│   │       ├── fireball.wav
-│   │       └── ...
-│   │
-│   ├── client/         
+├── client/         
 │   ├── graphics/        # 🎨 Gráficos y sprites
 │   │   ├── font/        # 🔤 Fuentes tipográficas
 │   │   ├── grass/       # 🌱 Sprites de césped
