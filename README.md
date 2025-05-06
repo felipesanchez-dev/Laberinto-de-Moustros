@@ -17,7 +17,7 @@ Laberinto de Moustros/
 │
 ├── client/
 │   │ 
-│   ├── audio
+│   ├── audio/
 │   │ 
 │   ├── graphics/        # 🎨 Gráficos y sprites
 │   │   ├── font/        # 🔤 Fuentes tipográficas
