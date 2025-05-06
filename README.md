@@ -531,7 +531,6 @@ Esto te devolverá a tu shell global de Python.
 
 | ![Pantalla del juego](https://github.com/felipesanchez-dev/Laberinto-de-Moustros/blob/main/image/game.jpg) |
 
-|------------------------------------------|------------------------------------------|------------------------------------------|
 
 
 # 📌 Nota Importante sobre Recursos Gráficos
