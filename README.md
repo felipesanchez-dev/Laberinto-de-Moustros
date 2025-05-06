@@ -9,26 +9,13 @@ El proyecto utiliza **Programación Orientada a Objetos (POO)** y la famosa libr
 ```bash
 Laberinto de Moustros/
 │
-├── .gitignore           # 🚫 Archivos y carpetas ignorados por Git
+├── .gitignore         
 ├── README.md            # 📖 Documentación y guía del proyecto
 ├── requirements.txt     # 📦 Dependencias necesarias para ejecutar el juego
 ├── .vscode/
 │   └── settings.json    # ⚙️ Configuración para Visual Studio Code
 │
-├── client/
-│   ├── audio/           # 🔊 Sonidos y música del juego
-│   │   ├── death.wav
-│   │   ├── Fire.wav
-│   │   ├── heal.wav
-│   │   ├── hit.wav
-│   │   ├── main.ogg
-│   │   ├── sword.wav
-│   │   └── attack/      # 💥 Efectos de ataque de enemigos
-│   │       ├── claw.wav
-│   │       ├── fireball.wav
-│   │       └── ...
-│   │
-│   ├── client/          # ⚠️ (Posible carpeta redundante)
+├── client/         
 │   ├── graphics/        # 🎨 Gráficos y sprites
 │   │   ├── font/        # 🔤 Fuentes tipográficas
 │   │   ├── grass/       # 🌱 Sprites de césped
