@@ -1,8 +1,53 @@
 # 🐉 Laberinto de Moustros
+¡Bienvenido a **Laberinto de Monstruos**! Un emocionante juego 2D de acción y aventura, desarrollado en Python con la popular librería **PyGame**.
 
-¡Bienvenido a **Laberinto de Moustros**!  
-Este es un juego **open source** desarrollado como parte de una prueba técnica para el puesto de tutor de Python.  
-El proyecto utiliza **Programación Orientada a Objetos (POO)** y la famosa librería **PyGame** para crear una experiencia divertida y didáctica.
+Este proyecto es **open source**. Se ha puesto especial énfasis en la **Programación Orientada a Objetos (POO)** con el fin de crear una experiencia que no solo sea divertida, sino también profundamente didáctica.
+
+## 📜 Sobre el Juego
+
+En **Laberinto de Monstruos**, te encontrarás en una misteriosa isla habitada por criaturas hostiles. Tu misión es clara: explorar, combatir y superar a todos los monstruos y jefes formidables que custodian cada rincón. Solo al vencer a los guardianes de la isla podrás desbloquear el portal escondido y asegurar tu escape.
+
+Estarás equipado con un variado arsenal de espadas y contarás con habilidades mágicas como regeneración, hechizos de daño en área ¡y mucho más! Prepárate para una aventura desafiante y entretenida.
+
+## ✨ Características Principales
+
+* **Exploración 2D:** Navega por una isla llena de secretos y peligros.
+* **Combate Dinámico:** Enfréntate a diversos monstruos y jefes desafiantes.
+* **Arsenal Variado:** Utiliza diferentes espadas para adaptarte a cada combate.
+* **Poderes Mágicos:** Desata habilidades como regeneración, daño de área y más.
+* **Progresión:** Derrota jefes para desbloquear el portal de escape.
+* **Educativo:** Desarrollado con POO y PyGame, ideal para aprender y ver conceptos en acción.
+
+## 🎮 Controles
+
+Para navegar y luchar en la isla, necesitarás dominar los siguientes controles:
+
+* **Movimiento:**
+    * `⬆` - Mover Arriba
+    * `⬇` - Mover Abajo
+    * `⬅` - Mover Izquierda
+    * `➡` - Mover Derecha
+    *(El juego permite movimiento en 8 direcciones, incluyendo diagonales).*
+* **Cambiar de Arma:** Tecla `Q`
+* **Cambiar de Poder Mágico:** Tecla `W`
+* **Atacar / Usar Habilidad:** `Barra Espaciadora`
+
+## 👨‍💻 Desarrollo y Código Fuente
+
+Este juego fue concebido y desarrollado como respuesta a una prueba técnica. El código fuente está completamente disponible para ti. ¡Siéntete libre de explorarlo, utilizarlo y modificarlo! Esperamos que te sirva como herramienta de aprendizaje y experimentación.
+
+## 📚 ¡Tutorial Completo Próximamente!
+
+Como parte de este proyecto, se ha realizado una **grabación completa de más de 10 horas** que documenta todo el proceso de desarrollo del juego, paso a paso. Este material se publicará en los próximos días en mi 🌐 **Sitio Web:** [felipesanchezdev.site](https://felipesanchezdev.site).
+
+Actualmente, el sitio web se encuentra en mantenimiento mientras se implementa una nueva sección de blog. El tutorial completo se publicará en dicha sección tan pronto como esté disponible. ¡Mantente atento a las actualizaciones!
+
+
+El objetivo es ofrecer un **tutorial exhaustivo y explicativo**, detallando qué significa cada línea de código y cómo se integran los diferentes componentes del juego. ¡Una oportunidad única para ver el desarrollo de un juego con PyGame desde cero!
+
+---
+
+¡Espero que disfrutes de **Laberinto de Monstruos** y que el código te sea de gran utilidad en tu camino de aprendizaje con Python y PyGame!
 
 ---
 ## 📁 Estructura del Proyecto
