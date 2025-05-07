@@ -22,17 +22,17 @@ class Entity(pygame.sprite.Sprite):
 		if direction == 'horizontal':
 			for sprite in self.obstacle_sprites:
 				if sprite.hitbox.colliderect(self.hitbox):
-					if self.direction.x > 0: # moving right
+					if self.direction.x > 0:
 						self.hitbox.right = sprite.hitbox.left
-					if self.direction.x < 0: # moving left
+					if self.direction.x < 0: 
 						self.hitbox.left = sprite.hitbox.right
 
 		if direction == 'vertical':
 			for sprite in self.obstacle_sprites:
 				if sprite.hitbox.colliderect(self.hitbox):
-					if self.direction.y > 0: # moving down
+					if self.direction.y > 0: 
 						self.hitbox.bottom = sprite.hitbox.top
-					if self.direction.y < 0: # moving up
+					if self.direction.y < 0:
 						self.hitbox.top = sprite.hitbox.bottom
 
 	def wave_value(self):

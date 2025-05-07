@@ -1,5 +1,5 @@
 import pygame
-from settings import * # Asegúrate de que HITBOX_OFFSET, weapon_data, magic_data están definidos aquí
+from settings import * 
 from support import import_folder
 from entity import Entity
 
@@ -19,7 +19,7 @@ class Player(Entity):
         self.obstacle_sprites = obstacle_sprites
 
         self.create_attack = create_attack
-        self.destroy_attack = destroy_attack # Asegúrate que esta función existe y limpia el ataque
+        self.destroy_attack = destroy_attack 
         self.weapon_index = 0
         self.weapon = list(weapon_data.keys())[self.weapon_index]
         self.can_switch_weapon = True
@@ -39,7 +39,7 @@ class Player(Entity):
         # self.health es la vida actual que se modificará durante el juego.
         self.health = self.stats['health'] * 0.5 
         self.energy = self.stats['energy'] * 0.8
-        self.exp = self.stats['health'] * 0.6 # Tal como estaba en tu código original
+        self.exp = self.stats['health'] * 0.6 
         self.speed = self.stats['speed']
 
         self.vulnerable = True
@@ -51,7 +51,7 @@ class Player(Entity):
 
         # --- Nuevos atributos para el reinicio del juego ---
         self.is_dead = False  # 2. Bandera para indicar si el jugador ha muerto
-        self.trigger_game_restart = trigger_game_restart # 3. Guarda la función de reinicio
+        self.trigger_game_restart = trigger_game_restart 
 
     def import_player_assets(self):
         character_path = '../graphics/player/'
@@ -101,7 +101,7 @@ class Player(Entity):
             # Magia
             if keys[pygame.K_LCTRL]:
                 self.attacking = True # La magia también activa 'attacking'
-                self.attack_time = pygame.time.get_ticks() # Y usa 'attack_time'
+                self.attack_time = pygame.time.get_ticks() 
                 style = list(magic_data.keys())[self.magic_index]
                 strength = list(magic_data.values())[self.magic_index]['strength'] + self.stats['magic']
                 cost = list(magic_data.values())[self.magic_index]['cost']
@@ -136,7 +136,7 @@ class Player(Entity):
                 self.status = self.status + '_idle'
 
         if self.attacking:
-            # No mover al jugador mientras ataca (ya lo haces)
+            # No mover al jugador mientras ataca
             self.direction.x = 0
             self.direction.y = 0
             if not 'attack' in self.status:
@@ -163,7 +163,7 @@ class Player(Entity):
                 self.can_switch_weapon = True
 
         if not self.can_switch_magic:
-            if current_time - self.magic_switch_time >= self.switch_duration_cooldown: # Asumo que usa switch_duration_cooldown también
+            if current_time - self.magic_switch_time >= self.switch_duration_cooldown:
                 self.can_switch_magic = True
 
         if not self.vulnerable:
@@ -205,21 +205,20 @@ class Player(Entity):
     def energy_recovery(self):
         if self.energy < self.stats['energy']:
             self.energy += 0.01 * self.stats['magic']
-            if self.energy > self.stats['energy']: # Asegurarse de no exceder el máximo actual
+            if self.energy > self.stats['energy']:
                     self.energy = self.stats['energy']
 
     def update(self):
         self.input()
 
-        # 5. Lógica principal de actualización y chequeo de muerte
+        # Lógica principal de actualización y chequeo de muerte
         if not self.is_dead:
             self.cooldowns()
             self.get_status() 
-            self.move(self.stats['speed']) # Usa self.direction, que es (0,0) si está muerto
+            self.move(self.stats['speed']) 
             self.energy_recovery()
-
             if self.health <= 0:
-                self.health = 0 # Asegura que la vida no sea negativa
+                self.health = 0 
                 self.is_dead = True
                 self.direction = pygame.math.Vector2(0,0) # Detiene el movimiento inmediatamente
 
@@ -227,14 +226,8 @@ class Player(Entity):
                 if self.attacking:
                     self.destroy_attack() 
                     self.attacking = False
-                
-                # Aquí podrías cambiar self.status a algo como 'dead' si tienes animaciones de muerte
-                # self.status = 'dead' 
-                # Y luego tu método get_status y animate tendrían que manejar ese estado.
-
                 # Llamar a la función de reinicio del juego
                 self.trigger_game_restart()
-                # Después de esta llamada, el juego debería reiniciarse.
-                # Si el reinicio no es instantáneo, el flag self.is_dead evitará más acciones.
+                
         
-        self.animate() # Animar siempre, incluso si está muerto (para mostrar el último frame o una animación de muerte)
+        self.animate()

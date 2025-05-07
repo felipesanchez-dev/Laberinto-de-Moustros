@@ -3,7 +3,7 @@ import pygame
 class Weapon(pygame.sprite.Sprite):
     def __init__(self,player,groups):
         super().__init__(groups)
-        self.sprite_type = 'weapon'  # Tipo de sprite, útil para identificarlo en el juego
+        self.sprite_type = 'weapon'  
         direction = player.status.split('_')[0]  # Obtiene la dirección en la que mira el jugador
         # Carga la imagen del arma según el arma equipada y la dirección del jugador
         full_path = f'../graphics/weapons/{player.weapon}/{direction}.png'

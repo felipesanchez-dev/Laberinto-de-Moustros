@@ -63,7 +63,7 @@ class Level:
                             random_grass_image = choice(graphics['grass'])
                             Tile(
                                 (x,y),
-                                [self.visible_sprites,self.obstacle_sprites,self.attackable_sprites], # Grass can be attacked
+                                [self.visible_sprites,self.obstacle_sprites,self.attackable_sprites],
                                 'grass',
                                 random_grass_image)
                         if style == 'object':
