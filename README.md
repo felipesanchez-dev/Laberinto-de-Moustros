@@ -7,7 +7,7 @@ Este proyecto es **open source**. Se ha puesto especial énfasis en la **Program
 
 En **Laberinto de Monstruos**, te encontrarás en una misteriosa isla habitada por criaturas hostiles. Tu misión es clara: explorar, combatir y superar a todos los monstruos y jefes formidables que custodian cada rincón. Solo al vencer a los guardianes de la isla podrás desbloquear el portal escondido y asegurar tu escape.
 
-Estarás equipado con un variado arsenal de espadas y contarás con habilidades mágicas como regeneración, hechizos de daño en área ¡y mucho más! Prepárate para una aventura desafiante y entretenida.
+Estarás equipado con un variado arsenal de espadas y contarás con habilidades mágicas como regeneración, hechizos de daño en área ¡y mucho más! Prepárate para una aventura desafiante y entretenida. **Ten en cuenta que si tu contador de vida llega a cero (indicando que has muerto), el juego se reiniciará completamente sin guardar tus avances. ¡Esto añade una capa extra de dificultad a tu misión!**
 
 ## ✨ Características Principales
 
